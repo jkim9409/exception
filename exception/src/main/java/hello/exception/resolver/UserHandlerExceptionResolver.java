@@ -32,7 +32,7 @@ public class UserHandlerExceptionResolver implements HandlerExceptionResolver {
 
                     String result = objectMapper.writeValueAsString(errorResult);
 
-                    response.setContentType("application/json");
+                    response. setContentType("application/json");
                     response.setCharacterEncoding("utf-8");
                     response.getWriter().write(result);
 
